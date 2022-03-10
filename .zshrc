@@ -110,7 +110,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="code ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-USER_DEFAULT = "Rares" +  prompt_context(){}
+USER_DEFAULT = $USER +  prompt_context(){}
 
 
 
