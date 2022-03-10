@@ -11,4 +11,4 @@
 [core]
 # default editor
 # after adding code to PATH 
-	editor = code --wait
+	editor = vim
