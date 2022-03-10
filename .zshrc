@@ -112,6 +112,10 @@ alias zshconfig="code ~/.zshrc"
 
 USER_DEFAULT = $USER +  prompt_context(){}
 
+if [ -f $(brew --prefix)/etc/brew-wrap ];then
+  source $(brew --prefix)/etc/brew-wrap
+fi  
+
 
 
 export NVM_DIR="$HOME/.nvm"
