@@ -11,4 +11,9 @@
 [core]
 # default editor
 # after adding code to PATH 
-	editor = vim
+	editor = nvim 
+	excludesfile = /Users/raresnagy/.gitignore_global
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
